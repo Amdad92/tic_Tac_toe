@@ -8,7 +8,7 @@ body{
     background-color: #640D5F;
     
 }
-section{
+section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,16 +18,9 @@ section{
     & .hide{
         display: none;
     }
-    & #message{
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 30vmin;
-        font-size: 5vmin;
-    }
 
     & #newgame-btn{
+        margin-top: 1rem;
         padding: 0.5rem 1rem;
         border-radius: 0.5rem;
         border: none;
@@ -56,11 +49,19 @@ section{
         -moz-border-radius: 0.5rem;
         -ms-border-radius: 0.5rem;
         -o-border-radius: 0.5rem;
-} 
+    } 
+}
+#reset-btn:hover{
+    cursor: pointer;
+    color: yellowgreen;
+}
+#newgame-btn:hover{
+    cursor: pointer;
+    color: yellowgreen;
 }
 .main-div{
-   
-    height: 70vh;
+    margin-top: 5vmin;
+    height: 70vmin;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -99,4 +100,15 @@ section{
         -o-border-radius: 0.5rem;
     }
    
+}
+#message{
+    color: white;
+    font-size: 7vmin;
+}
+.message-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
