@@ -15,14 +15,43 @@ section{
     flex-direction: column;
     gap: 1.5vmin;
     
+    & .hide{
+        display: none;
+    }
+    & #message{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30vmin;
+        font-size: 5vmin;
+    }
+
+    & #newgame-btn{
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        border: none;
+        font-size: 1.2rem;
+        font-weight: bold;
+        background-color: #292828;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        -webkit-border-radius: 0.5rem;
+        -moz-border-radius: 0.5rem;
+        -ms-border-radius: 0.5rem;
+        -o-border-radius: 0.5rem;
+    }
     & #reset-btn{
         padding: 0.5rem 1rem;
         border-radius: 0.5rem;
         border: none;
         font-size: 1.2rem;
         font-weight: bold;
-        background-color: #222;
-        color: white;
+        background-color: #292828;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
         -webkit-border-radius: 0.5rem;
         -moz-border-radius: 0.5rem;
         -ms-border-radius: 0.5rem;
@@ -39,6 +68,7 @@ section{
 
     & h1{
         color: white;
+        letter-spacing: 0.1rem;
         
     }
 }
@@ -56,10 +86,12 @@ section{
     & .btn{
         height: 18vmin;
         width: 18vmin;
-        background-color: #D91656;
         font-family: Arial;
+        font-size: 8vmin;
         border-radius: 0.5rem;
         box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+        background-color: #ffffc7;
+        color: #222;
         border: none;
         -webkit-border-radius: 0.5rem;
         -moz-border-radius: 0.5rem;
